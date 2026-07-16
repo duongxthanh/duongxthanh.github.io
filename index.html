@@ -142,8 +142,9 @@ h2 { font-size: 1.5rem; letter-spacing: -0.02em; margin-bottom: 0.6rem; }
 }
 .card:hover { border-color: var(--accent); }
 .card:active { transform: scale(0.99); }
-.card .name { font-weight: 600; font-size: 0.98rem; }
-.card .desc { margin-top: 0.35rem; color: var(--muted); font-size: 0.9rem; }
+.card .name { display: block; font-weight: 600; font-size: 0.98rem; }
+.card .desc { display: block; margin-top: 0.35rem; color: var(--muted); font-size: 0.9rem; }
+.cards .card:last-child:nth-child(odd) { grid-column: 1 / -1; }
 .card:hover .name { color: var(--accent); }
 
 .security p { color: var(--muted); max-width: 58ch; }
