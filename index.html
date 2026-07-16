@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thanh Duong - Senior AI & Full-stack Engineer</title>
+<meta name="description" content="Thanh Duong is a Senior AI & Full-stack Engineer in Hoi An, Vietnam. 12+ years of software, AI/ML since 2018, now building multi-agent systems, RAG, and real-time voice AI in production.">
+<link rel="canonical" href="https://duongxthanh.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Thanh Duong - Senior AI & Full-stack Engineer">
+<meta property="og:description" content="Multi-agent systems, RAG, and real-time voice AI in production. Open-source tools for the agent-readable web.">
+<meta property="og:url" content="https://duongxthanh.github.io/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Thanh Duong",
+  "alternateName": "Duong Xuan Thanh",
+  "jobTitle": "Senior AI & Full-stack Engineer",
+  "url": "https://duongxthanh.github.io/",
+  "address": { "@type": "PostalAddress", "addressLocality": "Hoi An", "addressCountry": "VN" },
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "Danang University of Science and Technology" },
+  "knowsAbout": ["Multi-agent orchestration", "Retrieval-augmented generation", "Voice AI", "Node.js", "TypeScript", "Python", "Web security research", "Agent-readable web (AEO/GEO)"],
+  "sameAs": [
+    "https://github.com/duongxthanh",
+    "https://hackerone.com/thanhinterpol",
+    "https://duongxthanh.github.io/researchlog/"
+  ]
+}
+</script>
+<style>
+:root {
+  --bg: #fafaf9;
+  --surface: #f1f0ee;
+  --text: #1c1b1a;
+  --muted: #57534e;
+  --line: #dcdad6;
+  --accent: #1d4ed8;
+  --accent-text: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121110;
+    --surface: #1b1a18;
+    --text: #ece9e4;
+    --muted: #a39e96;
+    --line: #2c2a27;
+    --accent: #7096f8;
+    --accent-text: #0e1015;
+  }
+}
+* { box-sizing: border-box; margin: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.65 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.mono { font-family: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace; }
+.wrap { max-width: 68rem; margin: 0 auto; padding: 0 1.25rem; }
+a { color: inherit; text-underline-offset: 3px; }
+a:hover { color: var(--accent); }
+
+header.site {
+  border-bottom: 1px solid var(--line);
+}
+header.site .wrap {
+  display: flex; align-items: center; justify-content: space-between;
+  height: 4rem;
+}
+header.site .brand { font-weight: 650; text-decoration: none; letter-spacing: -0.01em; }
+header.site nav { display: flex; gap: 1.4rem; font-size: 0.92rem; }
+header.site nav a { text-decoration: none; color: var(--muted); }
+header.site nav a:hover { color: var(--accent); }
+
+.hero { padding: 4.5rem 0 3.5rem; }
+.hero .grid {
+  display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: 3rem;
+  align-items: end;
+}
+.hero h1 {
+  font-size: clamp(2.1rem, 5.2vw, 3.4rem);
+  line-height: 1.06;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+  max-width: 16ch;
+}
+.hero p.lede {
+  margin-top: 1.25rem;
+  color: var(--muted);
+  font-size: 1.08rem;
+  max-width: 44ch;
+}
+.hero .cta { margin-top: 1.75rem; display: flex; gap: 0.75rem; flex-wrap: wrap; }
+.btn {
+  display: inline-block; text-decoration: none;
+  padding: 0.6rem 1.15rem; border-radius: 8px;
+  font-size: 0.95rem; font-weight: 550;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+.btn:active { transform: translateY(1px); }
+.btn.primary { background: var(--accent); color: var(--accent-text); }
+.btn.primary:hover { color: var(--accent-text); filter: brightness(1.08); }
+.btn.ghost { border: 1px solid var(--line); color: var(--text); }
+.btn.ghost:hover { border-color: var(--accent); color: var(--accent); }
+.hero aside {
+  border-left: 1px solid var(--line);
+  padding-left: 1.5rem;
+  font-size: 0.92rem;
+  color: var(--muted);
+  display: grid; gap: 0.85rem;
+}
+.hero aside div strong { color: var(--text); font-weight: 600; display: block; }
+
+section { padding: 3.5rem 0; border-top: 1px solid var(--line); }
+h2 { font-size: 1.5rem; letter-spacing: -0.02em; margin-bottom: 0.6rem; }
+.section-intro { color: var(--muted); max-width: 58ch; margin-bottom: 2rem; }
+
+.work { display: grid; gap: 0; }
+.work article {
+  display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: 2rem; padding: 1.6rem 0;
+}
+.work article + article { border-top: 1px solid var(--line); }
+.work h3 { font-size: 1.08rem; letter-spacing: -0.01em; }
+.work .role { display: block; margin-top: 0.3rem; font-size: 0.82rem; color: var(--muted); }
+.work p { color: var(--muted); font-size: 0.97rem; }
+.work p a { color: var(--text); }
+.work p a:hover { color: var(--accent); }
+
+.oss-group { margin-top: 2.2rem; }
+.oss-group:first-of-type { margin-top: 0; }
+.oss-group h3 { font-size: 0.95rem; font-weight: 600; margin-bottom: 1rem; }
+.cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.card {
+  display: block; text-decoration: none;
+  border: 1px solid var(--line); border-radius: 8px;
+  padding: 1.1rem 1.2rem;
+  background: var(--surface);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.card:hover { border-color: var(--accent); }
+.card:active { transform: scale(0.99); }
+.card .name { font-weight: 600; font-size: 0.98rem; }
+.card .desc { margin-top: 0.35rem; color: var(--muted); font-size: 0.9rem; }
+.card:hover .name { color: var(--accent); }
+
+.security p { color: var(--muted); max-width: 58ch; }
+.security p strong { color: var(--text); }
+
+footer.site { border-top: 1px solid var(--line); padding: 2.5rem 0 3rem; }
+footer.site .wrap { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+footer.site, footer.site a { color: var(--muted); font-size: 0.9rem; }
+footer.site nav { display: flex; gap: 1.4rem; }
+footer.site a { text-decoration: none; }
+footer.site a:hover { color: var(--accent); }
+
+@media (max-width: 768px) {
+  .hero { padding: 3rem 0 2.5rem; }
+  .hero .grid { grid-template-columns: 1fr; gap: 2rem; }
+  .hero aside { border-left: 0; border-top: 1px solid var(--line); padding: 1.5rem 0 0; }
+  .work article { grid-template-columns: 1fr; gap: 0.6rem; padding: 1.4rem 0; }
+  .cards { grid-template-columns: 1fr; }
+  header.site nav { gap: 1rem; font-size: 0.88rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .btn, .card { transition: none; }
+}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/">Thanh Duong</a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#open-source">Open source</a>
+      <a href="#security">Security</a>
+      <a href="https://duongxthanh.github.io/researchlog/">Research</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="hero wrap">
+    <div class="grid">
+      <div>
+        <h1>I build AI agents that ship real work.</h1>
+        <p class="lede">Senior AI &amp; Full-stack Engineer in Hoi An, Vietnam. Multi-agent systems, RAG, and real-time voice AI, running in production.</p>
+        <div class="cta">
+          <a class="btn primary" href="#open-source">See my open source</a>
+          <a class="btn ghost" href="https://github.com/duongxthanh">GitHub profile</a>
+        </div>
+      </div>
+      <aside aria-label="Career facts">
+        <div><strong>12+ years</strong> shipping software end-to-end</div>
+        <div><strong>AI/ML since 2018</strong> NLP, speech, recommenders</div>
+        <div><strong>GenAI, last 3 years</strong> agents, RAG, voice, fine-tuning</div>
+        <div><strong>Security research since 2019</strong> responsible disclosure</div>
+      </aside>
+    </div>
+  </div>
+
+  <section id="work">
+    <div class="wrap">
+      <h2>What I'm building now</h2>
+      <p class="section-intro">Production systems where deterministic code does the work and LLMs do the reasoning. No black boxes.</p>
+      <div class="work">
+        <article>
+          <div>
+            <h3>Autonomous multi-agent engineering platform</h3>
+            <span class="role">Backend &amp; AI Lead, at an AI startup</span>
+          </div>
+          <p>A platform where AI agent teams design, build, and deploy production web applications end-to-end. I own the backend architecture, multi-agent orchestration, and cloud infrastructure.</p>
+        </article>
+        <article>
+          <div>
+            <h3>Multi-channel AI agent ecosystem</h3>
+            <span class="role">Architect &amp; sole engineer, freelance</span>
+          </div>
+          <p>Web, Messenger, email, and voice agents on a single modular codebase, grounded with RAG and synced to booking, POS, and ticketing systems. In production for a 15-venue F&amp;B group in Hoi An serving around 700 staff.</p>
+        </article>
+        <article>
+          <div>
+            <h3>Real-time AI voice receptionist</h3>
+            <span class="role">Built solo, delivered 2025</span>
+          </div>
+          <p>An LLM receptionist engineered for messy human conversation: background noise, mid-sentence interrupts, multi-step orchestration at low latency. Public demo at <a href="https://sparkplanvoice.com">sparkplanvoice.com</a>.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="open-source">
+    <div class="wrap">
+      <h2>Open source</h2>
+      <p class="section-intro">Most AI crawlers don't run JavaScript, so much of the web is invisible to them. I build tools that fix that, plus practical automation for everyday problems. This page itself is plain, agent-readable HTML.</p>
+
+      <div class="oss-group">
+        <h3>The agent-readable web</h3>
+        <div class="cards">
+          <a class="card" href="https://github.com/duongxthanh/agent-ready">
+            <span class="name">agent-ready</span>
+            <span class="desc">CLI that scores a website's agent-readiness on a transparent rubric, fixes it, and re-scans to prove the gain. On npm as agent-visible.</span>
+          </a>
+          <a class="card" href="https://duongxthanh.github.io/researchlog/">
+            <span class="name">researchlog</span>
+            <span class="desc">Self-researched, verified deep-research documents, shared in public.</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="oss-group">
+        <h3>Claude Code skills &amp; tools</h3>
+        <div class="cards">
+          <a class="card" href="https://github.com/duongxthanh/claude-bokun-skills">
+            <span class="name">claude-bokun-skills</span>
+            <span class="desc">Battle-tested skills for operating the Bokun booking platform through the browser. No API key required.</span>
+          </a>
+          <a class="card" href="https://github.com/duongxthanh/claude-zalo-skills">
+            <span class="name">claude-zalo-skills</span>
+            <span class="desc">Integrate Zalo, Vietnam's biggest messaging app, into chatbots, with automatic OAuth token rotation.</span>
+          </a>
+          <a class="card" href="https://github.com/duongxthanh/claude-telegram-bot-skill">
+            <span class="name">claude-telegram-bot-skill</span>
+            <span class="desc">Auto-create a dedicated Telegram push bot per project, with a stdlib send helper for cron notifications.</span>
+          </a>
+          <a class="card" href="https://github.com/duongxthanh/tro-chuyen-cung-be">
+            <span class="name">tro-chuyen-cung-be</span>
+            <span class="desc">A local-first Vietnamese voice companion for young children. On-device STT and TTS, Claude as the brain.</span>
+          </a>
+          <a class="card" href="https://github.com/duongxthanh/facebook-reels-downloader">
+            <span class="name">facebook-reels-downloader</span>
+            <span class="desc">Download all Facebook reels with a single command.</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="security" class="security">
+    <div class="wrap">
+      <h2>Security research</h2>
+      <p>Responsible disclosure since <strong>2019</strong>, including a large user-data exposure reported on a Vietnamese social network. Active on <a href="https://hackerone.com/thanhinterpol">HackerOne</a> across crypto-wallet, mapping, and CMS programs.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>Thanh Duong, Hoi An, Vietnam</span>
+    <nav>
+      <a href="https://github.com/duongxthanh">GitHub</a>
+      <a href="https://hackerone.com/thanhinterpol">HackerOne</a>
+      <a href="https://duongxthanh.github.io/researchlog/">Research</a>
+      <a href="/llms.txt">llms.txt</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+# Thanh Duong
+
+> Senior AI & Full-stack Engineer in Hoi An, Vietnam. 12+ years shipping software end-to-end, AI/ML since 2018, the last ~3 years focused on GenAI: multi-agent orchestration, RAG, and real-time voice AI running in production.
+
+Currently Backend & AI Lead at an AI startup, building an autonomous multi-agent engineering platform. Also architect and sole engineer of a multi-channel AI agent ecosystem (web, Messenger, email, voice) in production for a 15-venue F&B group in Hoi An (~700 staff). Security researcher practicing responsible disclosure since 2019.
+
+Philosophy: start from the business problem, not the technology. Build no-black-box tools where deterministic code does the work and LLMs do the reasoning.
+
+## Open source
+
+- [agent-ready](https://github.com/duongxthanh/agent-ready): CLI that scores a website's agent-readiness (AEO/GEO) on a transparent rubric, fixes issues, and re-scans to prove the score went up. Published on npm as agent-visible.
+- [claude-bokun-skills](https://github.com/duongxthanh/claude-bokun-skills): Claude Code skills for operating the Bokun booking platform through the browser, no API key required.
+- [claude-zalo-skills](https://github.com/duongxthanh/claude-zalo-skills): Claude Code skills for integrating Zalo (Vietnam's biggest messaging app) into chatbots, with automatic OAuth token rotation.
+- [claude-telegram-bot-skill](https://github.com/duongxthanh/claude-telegram-bot-skill): Auto-create a dedicated Telegram push bot per project, with a stdlib send helper for cron/script notifications.
+- [tro-chuyen-cung-be](https://github.com/duongxthanh/tro-chuyen-cung-be): A local-first Vietnamese voice companion for young children, with on-device STT/TTS and Claude as the brain.
+- [facebook-reels-downloader](https://github.com/duongxthanh/facebook-reels-downloader): Download all Facebook reels with a single command.
+
+## Links
+
+- [GitHub](https://github.com/duongxthanh)
+- [HackerOne](https://hackerone.com/thanhinterpol)
+- [Research notes](https://duongxthanh.github.io/researchlog/)
+- [AI voice receptionist demo](https://sparkplanvoice.com)
