@@ -2,7 +2,7 @@
 
 > Senior AI & Full-stack Engineer in Hoi An, Vietnam. 12+ years shipping software end-to-end, AI/ML since 2018, the last ~3 years focused on GenAI: multi-agent orchestration, RAG, and real-time voice AI running in production.
 
-Currently Backend & AI Lead at an AI startup, building an autonomous multi-agent engineering platform. Also architect and sole engineer of a multi-channel AI agent ecosystem (web, Messenger, email, voice) in production for a 15-venue F&B group in Hoi An (~700 staff). Security researcher practicing responsible disclosure since 2019.
+Current work: an autonomous multi-agent engineering platform where AI agent teams design, build, and deploy production web applications end-to-end; a multi-channel AI agent ecosystem (web, Messenger, email, voice) in production for a 15-venue F&B group in Hoi An (~700 staff); and a real-time AI voice receptionist built for messy human conversation. Security researcher practicing responsible disclosure since 2019.
 
 Philosophy: start from the business problem, not the technology. Build no-black-box tools where deterministic code does the work and LLMs do the reasoning.
 
@@ -20,4 +20,3 @@ Philosophy: start from the business problem, not the technology. Build no-black-
 - [GitHub](https://github.com/duongxthanh)
 - [HackerOne](https://hackerone.com/thanhinterpol)
 - [Research notes](https://duongxthanh.github.io/researchlog/)
-- [AI voice receptionist demo](https://sparkplanvoice.com)
